@@ -3,7 +3,7 @@
 
   node{
     stage('Build'){
-      sh "Hello world i am scripted file"
+      sh 'echo "Hello world i am scripted file"'
     }
   }
 
