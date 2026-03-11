@@ -1,0 +1,9 @@
+groovy
+
+pipeline{
+  stage{
+    stage('Build'){
+      echo "Hello world i am scripted file"
+    }
+  }
+}
