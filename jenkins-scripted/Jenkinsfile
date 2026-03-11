@@ -1,9 +1,9 @@
-groovy
 
-pipeline{
-  stage{
+
+
+  node{
     stage('Build'){
-      echo "Hello world i am scripted file"
+      sh "Hello world i am scripted file"
     }
   }
-}
+
