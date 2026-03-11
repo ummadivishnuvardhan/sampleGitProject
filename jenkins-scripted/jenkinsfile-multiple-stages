@@ -1,0 +1,11 @@
+node{
+  stage('Build'){
+    sh'echo "Building the project"'
+  }
+   stage('Test'){
+    sh'echo "Running the tests"'
+  }
+   stage('Deploy'){
+    sh'echo "Deploying the project"'
+  }
+}
